@@ -98,15 +98,17 @@ h1 {
     padding: 0.4rem 0.6rem;
     border: 1px solid #f0f0f0;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 16px;
     transition: all 0.3s ease;
     background: #f8f8f8;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 @media (max-width: 600px) {
     #option-input {
         padding: 0.35rem 0.5rem;
-        font-size: 11px;
+        font-size: 16px;
     }
 }
 
