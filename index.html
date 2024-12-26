@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>あみだくじ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>あみだくじ</h1>
+        <div class="amidakuji-container">
+            <div class="amidakuji-board"></div>
+        </div>
+        <div class="options-container">
+            <div class="input-group">
+                <input type="text" id="option-input" placeholder="新しい項目を入力（最大8個まで）" maxlength="20">
+                <button class="add-button">追加</button>
+            </div>
+            <ul class="options-list"></ul>
+            <button class="start-button">くじを引く</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
